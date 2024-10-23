@@ -1,0 +1,8 @@
+name: hello world
+on: pull
+jobs: 
+  my-jobs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: my-step
+        run: echo "hello world !"
